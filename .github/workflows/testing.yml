@@ -2,9 +2,8 @@ name: testing
 
 on:
    push:
-    branches: 
-      -main
-      -unitTests
+    branches: [ main ]
+      
 
 jobs: 
   CIWorkFlowTest:
